@@ -2,15 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Персональный раздел");
 ?>
-<?
-global $USER;
-if (!$USER->IsAuthorized()) {
-    LocalRedirect("/auth/?backurl=" . urlencode($APPLICATION->GetCurPageParam()));
-}
 
-$bonusInfo = Czebra\Project\Bonuses::getUserBonusInfoByCurrentUser();
-
-?>
 <div class="title-lk">
     <div class="container">
         <h1>Личный кабинет</h1>
