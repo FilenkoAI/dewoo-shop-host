@@ -1,0 +1,60 @@
+function compareEvents()
+{
+    $('.arrow-slide').click(function(e){
+        $.ajax({
+            url: '/local/ajax/compare/?id=' + $(this).attr('data-compare-id') + "&action=" + $(this).attr('data-compare-action'),
+            cache: false,
+            success: function (data) {
+                data = JSON.parse(data);
+                $(".comparison .counter-comparison").text(data.COUNT);
+            }
+        });
+        
+        if($(this).attr('data-compare-action') == "add") {
+            $(this).attr('data-compare-action', 'delete');
+            $(this).css('background-position', '-170px -222px');
+        } else {
+            $(this).attr('data-compare-action', 'add');
+            $(this).css('background-position', '-155px -51px');
+        }
+        return false;
+    });
+
+    $('.deleted-product-compare a').click(function(){
+        $.ajax({
+            url: '/local/ajax/compare/?id=' + $(this).attr('data-compare-id') + "&action=delete" ,
+            cache: false,
+            success: function (data) {
+                //data = JSON.parse(data);
+                //$(".comparison .counter-comparison").text(data.COUNT);
+            }
+        });
+
+        //скрывать предка
+        $(this).closest('.slide-compare').remove();
+
+        slider.goToPrevSlide();
+
+       if ($(".slide-compare").length == 0) {
+            window.location.href = "/catalog/compare.php";
+        }
+
+        return false;
+    });
+
+    $.ajax({
+        url: "/local/ajax/compare/?action=list",
+        cache: false,
+        success:function(data){
+            data = JSON.parse(data);
+            var countElem = 0;
+            for(i in data){
+                var elem = $("[data-compare-id='" + data[i] + "']");
+                $(elem).attr('data-compare-action', 'delete');
+                $(elem).css('background-position', '-170px -222px');
+                countElem++;
+            }
+            $(".comparison .counter-comparison").text(countElem);
+        }
+    });
+} 

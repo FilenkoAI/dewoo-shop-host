@@ -1,0 +1,231 @@
+Options -Indexes 
+ErrorDocument 404 /404.php
+
+php_value session.gc_maxlifetime 604800
+
+<IfModule mod_php5.c>
+	php_flag allow_call_time_pass_reference 1
+	php_flag session.use_trans_sid off
+
+	#php_value display_errors 1
+
+	#php_value mbstring.internal_encoding UTF-8
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	Options +FollowSymLinks
+	RewriteEngine On
+
+	RewriteCond %{HTTP_HOST} ^daewoo-shop\.com$ [NC]
+	RewriteRule ^(.*)$ https://www.daewoo-shop.com/$1 [L,R=301]
+
+    RewriteRule ^catalog/it%D0%B5m/(.*)$ /catalog/item/$1 [L,R=301]
+    RewriteRule ^catalog/itеm/(.*)$ /catalog/item/$1 [L,R=301]
+
+
+    #Для того, чтобы у разных доменов был разный robots.txt
+    #самого robots.txt не должно быть на сайте
+    #тоже самое для sitemap.txt
+    RewriteCond %{HTTP_HOST} ^www.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_moscow/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^www.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_moscow/sitemap.xml [L]
+
+    RewriteCond %{HTTP_HOST} ^sankt-peterburg.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_sankt-peterburg/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^sankt-peterburg.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_sankt-peterburg/sitemap.xml [L]
+
+
+#    RewriteCond %{HTTP_HOST} ^www\.sankt-peterburg(.*)$ [NC]
+#    RewriteRule ^(.*)$ https://%1%{REQUEST_URI} [R=301,QSA,NC,L]
+
+
+
+    RewriteCond %{HTTP_HOST} ^nizhniy-novgorod.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_nizhniy-novgorod/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^nizhniy-novgorod.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_nizhniy-novgorod/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^krasnodar.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_krasnodar/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^krasnodar.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_krasnodar/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^voronezh.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_voronezh/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^voronezh.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_voronezh/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^kazan.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_kazan/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^kazan.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_kazan/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^barnaul.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_barnaul/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^barnaul.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_barnaul/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^belgorod.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_belgorod/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^belgorod.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_belgorod/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^berezniki.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_berezniki/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^berezniki.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_berezniki/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^vladivostok.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_vladivostok/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^vladivostok.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_vladivostok/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^vladimir.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_vladimir/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^vladimir.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_vladimir/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^volgograd.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_volgograd/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^volgograd.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_volgograd/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^elec.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_elec/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^elec.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_elec/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^zheleznogorsk.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_zheleznogorsk/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^zheleznogorsk.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_zheleznogorsk/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^ivanovo.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_ivanovo/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^ivanovo.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_ivanovo/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^kaluga.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_kaluga/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^kaluga.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_kaluga/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^kemerovo.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_kemerovo/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^kemerovo.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_kemerovo/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^kostroma.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_kostroma/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^kostroma.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_kostroma/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^krasnoyarsk.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_krasnoyarsk/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^krasnoyarsk.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_krasnoyarsk/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^kursk.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_kursk/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^kursk.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_kursk/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^livny.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_livny/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^livny.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_livny/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^lipetsk.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_lipetsk/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^lipetsk.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_lipetsk/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^magnitogorsk.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_magnitogorsk/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^magnitogorsk.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_magnitogorsk/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^minsk.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_minsk/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^minsk.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_minsk/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^mcensk.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_mcensk/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^mcensk.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_mcensk/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^nizhnevartovsk.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_nizhnevartovsk/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^nizhnevartovsk.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_nizhnevartovsk/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^novokuznetsk.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_novokuznetsk/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^novokuznetsk.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_novokuznetsk/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^novosibirsk.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_novosibirsk/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^novosibirsk.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_novosibirsk/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^orel.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_orel/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^orel.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_orel/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^pavlovskiy-posad.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_pavlovskiy-posad/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^pavlovskiy-posad.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_pavlovskiy-posad/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^perm.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_perm/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^perm.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_perm/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^petropavlovsk-kamchatskiy.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_petropavlovsk-kamchatskiy/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^petropavlovsk-kamchatskiy.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_petropavlovsk-kamchatskiy/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^tver.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_tver/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^tver.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_tver/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^tomsk.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_tomsk/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^tomsk.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_tomsk/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^tyumen.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_tyumen/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^tyumen.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_tyumen/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^ust-labinsk.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_ust-labinsk/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^ust-labinsk.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_ust-labinsk/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^ufa.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_ufa/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^ufa.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_ufa/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^chita.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_chita/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^chita.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_chita/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^yudjno-sahalinsk.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_yudjno-sahalinsk/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^yudjno-sahalinsk.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_yudjno-sahalinsk/sitemap.xml [L]
+    RewriteCond %{HTTP_HOST} ^drugoy.daewoo-shop.com$
+    RewriteRule ^robots.txt$ /_static/_drugoy/robots.txt [L]
+    RewriteCond %{HTTP_HOST} ^drugoy.daewoo-shop.com$
+    RewriteRule ^sitemap.xml$ /_static/_drugoy/sitemap.xml [L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-l
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+	RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+	RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+
+    RewriteCond %{HTTP_HOST} orel.daewoo-shop.com
+    RewriteRule (.*) https://daewoo-shop.com/$1 [R=301,L]
+
+    RewriteCond %{HTTP_HOST} zheleznogorsk.daewoo-shop.com
+    RewriteRule (.*) https://daewoo-shop.com/$1 [R=301,L]
+
+    RewriteCond %{HTTP_HOST} mcensk.daewoo-shop.com
+    RewriteRule (.*) https://daewoo-shop.com/$1 [R=301,L]
+
+    RewriteCond %{HTTP_HOST} livny.daewoo-shop.com
+    RewriteRule (.*) https://daewoo-shop.com/$1 [R=301,L]
+
+    RewriteCond %{HTTP_HOST} elec.daewoo-shop.com
+    RewriteRule (.*) https://daewoo-shop.com/$1 [R=301,L]
+
+</IfModule>
+
+<IfModule mod_dir.c>
+	DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+	ExpiresActive on
+	ExpiresByType image/jpeg "access plus 3 day"
+	ExpiresByType image/gif "access plus 3 day"
+</IfModule>
+

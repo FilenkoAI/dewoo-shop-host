@@ -1,0 +1,9 @@
+.wrapp-catalog .workarea-catalog .catalog-filter .filter-workarea .show-result-filters{
+    background-color: #FFFFFF;
+}
+.wrapp-catalog .workarea-catalog .catalog-filter .filter-workarea .reset-settings{
+    border: none;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0;
+}

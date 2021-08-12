@@ -1,0 +1,1 @@
+<a href="tel:+88005004293"><img src="<?=SITE_TEMPLATE_PATH?>/front/img/headset.svg" alt="" class="phone-service1"> 8 (800) 555-42-93</a>

@@ -1,0 +1,1797 @@
+Array
+(
+    [GRID] => Array
+        (
+            [HEADERS] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => NAME
+                            [name] => 
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => PREVIEW_PICTURE
+                            [name] => 
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => DISCOUNT
+                            [name] => 
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => DELETE
+                            [name] => 
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => DELAY
+                            [name] => 
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => TYPE
+                            [name] => 
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => PRICE
+                            [name] => 
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => SUM
+                            [name] => 
+                        )
+
+                    [8] => Array
+                        (
+                            [id] => QUANTITY
+                            [name] => 
+                        )
+
+                )
+
+            [ROWS] => Array
+                (
+                    [1830] => Array
+                        (
+                            [ID] => 1830
+                            [~ID] => 1830
+                            [LID] => s1
+                            [~LID] => s1
+                            [MODULE] => catalog
+                            [~MODULE] => catalog
+                            [PRODUCT_ID] => 1843
+                            [~PRODUCT_ID] => 1843
+                            [QUANTITY] => 1
+                            [~QUANTITY] => 1.0000
+                            [WEIGHT] => 2400
+                            [~WEIGHT] => 2400.00
+                            [DELAY] => N
+                            [~DELAY] => N
+                            [CAN_BUY] => Y
+                            [~CAN_BUY] => Y
+                            [PRICE] => 2691
+                            [~PRICE] => 2691
+                            [CUSTOM_PRICE] => N
+                            [~CUSTOM_PRICE] => N
+                            [BASE_PRICE] => 2990
+                            [~BASE_PRICE] => 2990
+                            [PRODUCT_PRICE_ID] => 3333
+                            [~PRODUCT_PRICE_ID] => 3333
+                            [PRICE_TYPE_ID] => 2
+                            [~PRICE_TYPE_ID] => 2
+                            [CURRENCY] => RUB
+                            [~CURRENCY] => RUB
+                            [BARCODE_MULTI] => N
+                            [~BARCODE_MULTI] => N
+                            [RESERVED] => N
+                            [~RESERVED] => N
+                            [RESERVE_QUANTITY] => 
+                            [~RESERVE_QUANTITY] => 
+                            [NAME] => Дрель ударная DAEWOO DAD 850
+                            [~NAME] => Дрель ударная DAEWOO DAD 850
+                            [CATALOG_XML_ID] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                            [~CATALOG_XML_ID] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                            [VAT_RATE] => 0.2000
+                            [~VAT_RATE] => 0.2000
+                            [NOTES] => Розничная цена (Для сайта)
+                            [~NOTES] => Розничная цена (Для сайта)
+                            [DISCOUNT_PRICE] => 299
+                            [~DISCOUNT_PRICE] => 299
+                            [PRODUCT_PROVIDER_CLASS] => \Bitrix\Catalog\Product\CatalogProvider
+                            [~PRODUCT_PROVIDER_CLASS] => \Bitrix\Catalog\Product\CatalogProvider
+                            [CALLBACK_FUNC] => 
+                            [~CALLBACK_FUNC] => 
+                            [ORDER_CALLBACK_FUNC] => 
+                            [~ORDER_CALLBACK_FUNC] => 
+                            [PAY_CALLBACK_FUNC] => 
+                            [~PAY_CALLBACK_FUNC] => 
+                            [CANCEL_CALLBACK_FUNC] => 
+                            [~CANCEL_CALLBACK_FUNC] => 
+                            [DIMENSIONS] => a:3:{s:5:&quot;WIDTH&quot;;N;s:6:&quot;HEIGHT&quot;;N;s:6:&quot;LENGTH&quot;;N;}
+                            [~DIMENSIONS] => a:3:{s:5:"WIDTH";N;s:6:"HEIGHT";N;s:6:"LENGTH";N;}
+                            [TYPE] => 
+                            [~TYPE] => 
+                            [SET_PARENT_ID] => 
+                            [~SET_PARENT_ID] => 
+                            [DETAIL_PAGE_URL] => /catalog/item/drel_udarnaya_daewoo_dad_850/
+                            [~DETAIL_PAGE_URL] => /catalog/item/drel_udarnaya_daewoo_dad_850/
+                            [FUSER_ID] => 1
+                            [~FUSER_ID] => 1
+                            [MEASURE_CODE] => 796
+                            [~MEASURE_CODE] => 796
+                            [MEASURE_NAME] => шт
+                            [~MEASURE_NAME] => шт
+                            [ORDER_ID] => 
+                            [~ORDER_ID] => 
+                            [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:31.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [~DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:31.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:34.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [~DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:34.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [PRODUCT_XML_ID] => d727bacc-a1fa-11e7-ae2b-00155d010a02
+                            [~PRODUCT_XML_ID] => d727bacc-a1fa-11e7-ae2b-00155d010a02
+                            [SUBSCRIBE] => N
+                            [~SUBSCRIBE] => N
+                            [RECOMMENDATION] => 
+                            [~RECOMMENDATION] => 
+                            [VAT_INCLUDED] => Y
+                            [~VAT_INCLUDED] => Y
+                            [SORT] => 100
+                            [~SORT] => 100
+                            [DATE_REFRESH] => 
+                            [~DATE_REFRESH] => 
+                            [DISCOUNT_NAME] => 
+                            [~DISCOUNT_NAME] => 
+                            [DISCOUNT_VALUE] => 
+                            [~DISCOUNT_VALUE] => 
+                            [DISCOUNT_COUPON] => 
+                            [~DISCOUNT_COUPON] => 
+                            [XML_ID] => bx_60ba2eb7e1f9b
+                            [~XML_ID] => bx_60ba2eb7e1f9b
+                            [MARKING_CODE_GROUP] => 
+                            [~MARKING_CODE_GROUP] => 
+                            [PROPS] => Array
+                                (
+                                )
+
+                            [PROPS_ALL] => Array
+                                (
+                                    [CATALOG.XML_ID] => Array
+                                        (
+                                            [CODE] => CATALOG.XML_ID
+                                            [ID] => 3623
+                                            [VALUE] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                                            [SORT] => 100
+                                            [NAME] => Catalog XML_ID
+                                        )
+
+                                    [PRODUCT.XML_ID] => Array
+                                        (
+                                            [CODE] => PRODUCT.XML_ID
+                                            [ID] => 3624
+                                            [VALUE] => d727bacc-a1fa-11e7-ae2b-00155d010a02
+                                            [SORT] => 100
+                                            [NAME] => Product XML_ID
+                                        )
+
+                                )
+
+                            [WEIGHT_FORMATED] => 2400 г
+                            [PRICE_FORMATED] => 2&nbsp;691 руб.
+                            [FULL_PRICE] => 2990
+                            [FULL_PRICE_FORMATED] => 2&nbsp;990 руб.
+                            [DISCOUNT_PRICE_FORMATED] => 299 руб.
+                            [SUM_VALUE] => 2691
+                            [SUM] => 2&nbsp;691 <span class='rubl'>i</span>
+                            [SUM_FULL_PRICE] => 2990
+                            [SUM_FULL_PRICE_FORMATED] => 2&nbsp;990 руб.
+                            [SUM_DISCOUNT_PRICE] => 299
+                            [SUM_DISCOUNT_PRICE_FORMATED] => 299 руб.
+                            [VAT_VALUE] => 448.5
+                            [PRICE_VAT_VALUE] => 448.5
+                            [DISCOUNT_PRICE_PERCENT] => 10
+                            [DISCOUNT_PRICE_PERCENT_FORMATED] => 10%
+                            [HASH] => 62d400fc0fa4b1a4f783bb5aac4b74d2
+                            [MEASURE_TEXT] => шт
+                            [MEASURE] => 796
+                            [MEASURE_RATIO] => 1
+                            [MEASURE_RATIO_VALUE] => 1
+                            [MEASURE_RATIO_ID] => 1778
+                            [AVAILABLE_QUANTITY] => 18
+                            [CHECK_MAX_QUANTITY] => Y
+                            [PREVIEW_PICTURE] => 32810
+                            [DETAIL_PICTURE] => 31544
+                            [PREVIEW_TEXT] => Ударная дрель DAD 850 DAEWOO
+                            [PREVIEW_TEXT_TYPE] => text
+                            [PREVIEW_PICTURE_SRC] => /upload/resize_cache/iblock/829/160_160_1/829b33b9fad075ec3014607bb2ba4fe6.jpg
+                            [PREVIEW_PICTURE_SRC_2X] => /upload/resize_cache/iblock/829/320_320_1/829b33b9fad075ec3014607bb2ba4fe6.jpg
+                            [PREVIEW_PICTURE_SRC_ORIGINAL] => /upload/iblock/829/829b33b9fad075ec3014607bb2ba4fe6.jpg
+                            [DETAIL_PICTURE_SRC] => /upload/resize_cache/iblock/42a/160_160_1/42a28aa06e3d57c59e96fd1c948cbec4.jpg
+                            [DETAIL_PICTURE_SRC_2X] => /upload/resize_cache/iblock/42a/320_320_1/42a28aa06e3d57c59e96fd1c948cbec4.jpg
+                            [DETAIL_PICTURE_SRC_ORIGINAL] => /upload/iblock/42a/42a28aa06e3d57c59e96fd1c948cbec4.jpg
+                            [PRICE_FORMATED_RUB] => 2&nbsp;691 <span class='rubl'>i</span>
+                            [SUM_FULL_PRICE_FORMATED_RUB] => 2&nbsp;990 <span class='rubl'>i</span>
+                            [BASE_PRICE_IS_MORE] => Y
+                        )
+
+                    [1831] => Array
+                        (
+                            [ID] => 1831
+                            [~ID] => 1831
+                            [LID] => s1
+                            [~LID] => s1
+                            [MODULE] => catalog
+                            [~MODULE] => catalog
+                            [PRODUCT_ID] => 1867
+                            [~PRODUCT_ID] => 1867
+                            [QUANTITY] => 2
+                            [~QUANTITY] => 2.0000
+                            [WEIGHT] => 2180
+                            [~WEIGHT] => 2180.00
+                            [DELAY] => N
+                            [~DELAY] => N
+                            [CAN_BUY] => Y
+                            [~CAN_BUY] => Y
+                            [PRICE] => 2421
+                            [~PRICE] => 2421
+                            [CUSTOM_PRICE] => N
+                            [~CUSTOM_PRICE] => N
+                            [BASE_PRICE] => 2690
+                            [~BASE_PRICE] => 2690
+                            [PRODUCT_PRICE_ID] => 3380
+                            [~PRODUCT_PRICE_ID] => 3380
+                            [PRICE_TYPE_ID] => 2
+                            [~PRICE_TYPE_ID] => 2
+                            [CURRENCY] => RUB
+                            [~CURRENCY] => RUB
+                            [BARCODE_MULTI] => N
+                            [~BARCODE_MULTI] => N
+                            [RESERVED] => N
+                            [~RESERVED] => N
+                            [RESERVE_QUANTITY] => 
+                            [~RESERVE_QUANTITY] => 
+                            [NAME] => Дрель ударная DAEWOO DAD 650
+                            [~NAME] => Дрель ударная DAEWOO DAD 650
+                            [CATALOG_XML_ID] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                            [~CATALOG_XML_ID] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                            [VAT_RATE] => 0.2000
+                            [~VAT_RATE] => 0.2000
+                            [NOTES] => Розничная цена (Для сайта)
+                            [~NOTES] => Розничная цена (Для сайта)
+                            [DISCOUNT_PRICE] => 269
+                            [~DISCOUNT_PRICE] => 269
+                            [PRODUCT_PROVIDER_CLASS] => \Bitrix\Catalog\Product\CatalogProvider
+                            [~PRODUCT_PROVIDER_CLASS] => \Bitrix\Catalog\Product\CatalogProvider
+                            [CALLBACK_FUNC] => 
+                            [~CALLBACK_FUNC] => 
+                            [ORDER_CALLBACK_FUNC] => 
+                            [~ORDER_CALLBACK_FUNC] => 
+                            [PAY_CALLBACK_FUNC] => 
+                            [~PAY_CALLBACK_FUNC] => 
+                            [CANCEL_CALLBACK_FUNC] => 
+                            [~CANCEL_CALLBACK_FUNC] => 
+                            [DIMENSIONS] => a:3:{s:5:&quot;WIDTH&quot;;N;s:6:&quot;HEIGHT&quot;;N;s:6:&quot;LENGTH&quot;;N;}
+                            [~DIMENSIONS] => a:3:{s:5:"WIDTH";N;s:6:"HEIGHT";N;s:6:"LENGTH";N;}
+                            [TYPE] => 
+                            [~TYPE] => 
+                            [SET_PARENT_ID] => 
+                            [~SET_PARENT_ID] => 
+                            [DETAIL_PAGE_URL] => /catalog/item/drel_udarnaya_daewoo_dad_650/
+                            [~DETAIL_PAGE_URL] => /catalog/item/drel_udarnaya_daewoo_dad_650/
+                            [FUSER_ID] => 1
+                            [~FUSER_ID] => 1
+                            [MEASURE_CODE] => 796
+                            [~MEASURE_CODE] => 796
+                            [MEASURE_NAME] => шт
+                            [~MEASURE_NAME] => шт
+                            [ORDER_ID] => 
+                            [~ORDER_ID] => 
+                            [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:32.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [~DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:32.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-07 17:03:27.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [~DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-07 17:03:27.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [PRODUCT_XML_ID] => 997dd856-b211-11e6-b99c-00155d010a02
+                            [~PRODUCT_XML_ID] => 997dd856-b211-11e6-b99c-00155d010a02
+                            [SUBSCRIBE] => N
+                            [~SUBSCRIBE] => N
+                            [RECOMMENDATION] => 
+                            [~RECOMMENDATION] => 
+                            [VAT_INCLUDED] => Y
+                            [~VAT_INCLUDED] => Y
+                            [SORT] => 200
+                            [~SORT] => 200
+                            [DATE_REFRESH] => 
+                            [~DATE_REFRESH] => 
+                            [DISCOUNT_NAME] => 
+                            [~DISCOUNT_NAME] => 
+                            [DISCOUNT_VALUE] => 
+                            [~DISCOUNT_VALUE] => 
+                            [DISCOUNT_COUPON] => 
+                            [~DISCOUNT_COUPON] => 
+                            [XML_ID] => bx_60ba2eb8a1601
+                            [~XML_ID] => bx_60ba2eb8a1601
+                            [MARKING_CODE_GROUP] => 
+                            [~MARKING_CODE_GROUP] => 
+                            [PROPS] => Array
+                                (
+                                )
+
+                            [PROPS_ALL] => Array
+                                (
+                                    [CATALOG.XML_ID] => Array
+                                        (
+                                            [CODE] => CATALOG.XML_ID
+                                            [ID] => 3625
+                                            [VALUE] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                                            [SORT] => 100
+                                            [NAME] => Catalog XML_ID
+                                        )
+
+                                    [PRODUCT.XML_ID] => Array
+                                        (
+                                            [CODE] => PRODUCT.XML_ID
+                                            [ID] => 3626
+                                            [VALUE] => 997dd856-b211-11e6-b99c-00155d010a02
+                                            [SORT] => 100
+                                            [NAME] => Product XML_ID
+                                        )
+
+                                )
+
+                            [WEIGHT_FORMATED] => 2180 г
+                            [PRICE_FORMATED] => 2&nbsp;421 руб.
+                            [FULL_PRICE] => 2690
+                            [FULL_PRICE_FORMATED] => 2&nbsp;690 руб.
+                            [DISCOUNT_PRICE_FORMATED] => 269 руб.
+                            [SUM_VALUE] => 4842
+                            [SUM] => 4&nbsp;842 <span class='rubl'>i</span>
+                            [SUM_FULL_PRICE] => 5380
+                            [SUM_FULL_PRICE_FORMATED] => 5&nbsp;380 руб.
+                            [SUM_DISCOUNT_PRICE] => 538
+                            [SUM_DISCOUNT_PRICE_FORMATED] => 538 руб.
+                            [VAT_VALUE] => 403.5
+                            [PRICE_VAT_VALUE] => 403.5
+                            [DISCOUNT_PRICE_PERCENT] => 10
+                            [DISCOUNT_PRICE_PERCENT_FORMATED] => 10%
+                            [HASH] => cc882cda3ec42a9ad6e0548a54bf3f68
+                            [MEASURE_TEXT] => шт
+                            [MEASURE] => 796
+                            [MEASURE_RATIO] => 1
+                            [MEASURE_RATIO_VALUE] => 1
+                            [MEASURE_RATIO_ID] => 1802
+                            [AVAILABLE_QUANTITY] => 18
+                            [CHECK_MAX_QUANTITY] => Y
+                            [PREVIEW_PICTURE] => 32814
+                            [DETAIL_PICTURE] => 31826
+                            [PREVIEW_TEXT] => Ударная дрель DAD 650 DAEWOO
+                            [PREVIEW_TEXT_TYPE] => text
+                            [PREVIEW_PICTURE_SRC] => /upload/resize_cache/iblock/b44/160_160_1/b443aa98f6e7ecc269ff485b2efee79a.jpg
+                            [PREVIEW_PICTURE_SRC_2X] => /upload/resize_cache/iblock/b44/320_320_1/b443aa98f6e7ecc269ff485b2efee79a.jpg
+                            [PREVIEW_PICTURE_SRC_ORIGINAL] => /upload/iblock/b44/b443aa98f6e7ecc269ff485b2efee79a.jpg
+                            [DETAIL_PICTURE_SRC] => /upload/resize_cache/iblock/1fe/160_160_1/1fe63dc5de49b3869915f5363857ebdc.jpg
+                            [DETAIL_PICTURE_SRC_2X] => /upload/resize_cache/iblock/1fe/320_320_1/1fe63dc5de49b3869915f5363857ebdc.jpg
+                            [DETAIL_PICTURE_SRC_ORIGINAL] => /upload/iblock/1fe/1fe63dc5de49b3869915f5363857ebdc.jpg
+                            [PRICE_FORMATED_RUB] => 2&nbsp;421 <span class='rubl'>i</span>
+                            [SUM_FULL_PRICE_FORMATED_RUB] => 5&nbsp;380 <span class='rubl'>i</span>
+                            [BASE_PRICE_IS_MORE] => Y
+                        )
+
+                    [1832] => Array
+                        (
+                            [ID] => 1832
+                            [~ID] => 1832
+                            [LID] => s1
+                            [~LID] => s1
+                            [MODULE] => catalog
+                            [~MODULE] => catalog
+                            [PRODUCT_ID] => 1844
+                            [~PRODUCT_ID] => 1844
+                            [QUANTITY] => 2
+                            [~QUANTITY] => 2.0000
+                            [WEIGHT] => 2740
+                            [~WEIGHT] => 2740.00
+                            [DELAY] => N
+                            [~DELAY] => N
+                            [CAN_BUY] => Y
+                            [~CAN_BUY] => Y
+                            [PRICE] => 3051
+                            [~PRICE] => 3051
+                            [CUSTOM_PRICE] => N
+                            [~CUSTOM_PRICE] => N
+                            [BASE_PRICE] => 3390
+                            [~BASE_PRICE] => 3390
+                            [PRODUCT_PRICE_ID] => 3336
+                            [~PRODUCT_PRICE_ID] => 3336
+                            [PRICE_TYPE_ID] => 2
+                            [~PRICE_TYPE_ID] => 2
+                            [CURRENCY] => RUB
+                            [~CURRENCY] => RUB
+                            [BARCODE_MULTI] => N
+                            [~BARCODE_MULTI] => N
+                            [RESERVED] => N
+                            [~RESERVED] => N
+                            [RESERVE_QUANTITY] => 
+                            [~RESERVE_QUANTITY] => 
+                            [NAME] => Дрель ударная DAEWOO DAD 950
+                            [~NAME] => Дрель ударная DAEWOO DAD 950
+                            [CATALOG_XML_ID] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                            [~CATALOG_XML_ID] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                            [VAT_RATE] => 0.2000
+                            [~VAT_RATE] => 0.2000
+                            [NOTES] => Розничная цена (Для сайта)
+                            [~NOTES] => Розничная цена (Для сайта)
+                            [DISCOUNT_PRICE] => 339
+                            [~DISCOUNT_PRICE] => 339
+                            [PRODUCT_PROVIDER_CLASS] => \Bitrix\Catalog\Product\CatalogProvider
+                            [~PRODUCT_PROVIDER_CLASS] => \Bitrix\Catalog\Product\CatalogProvider
+                            [CALLBACK_FUNC] => 
+                            [~CALLBACK_FUNC] => 
+                            [ORDER_CALLBACK_FUNC] => 
+                            [~ORDER_CALLBACK_FUNC] => 
+                            [PAY_CALLBACK_FUNC] => 
+                            [~PAY_CALLBACK_FUNC] => 
+                            [CANCEL_CALLBACK_FUNC] => 
+                            [~CANCEL_CALLBACK_FUNC] => 
+                            [DIMENSIONS] => a:3:{s:5:&quot;WIDTH&quot;;N;s:6:&quot;HEIGHT&quot;;N;s:6:&quot;LENGTH&quot;;N;}
+                            [~DIMENSIONS] => a:3:{s:5:"WIDTH";N;s:6:"HEIGHT";N;s:6:"LENGTH";N;}
+                            [TYPE] => 
+                            [~TYPE] => 
+                            [SET_PARENT_ID] => 
+                            [~SET_PARENT_ID] => 
+                            [DETAIL_PAGE_URL] => /catalog/item/drel_udarnaya_daewoo_dad_950/
+                            [~DETAIL_PAGE_URL] => /catalog/item/drel_udarnaya_daewoo_dad_950/
+                            [FUSER_ID] => 1
+                            [~FUSER_ID] => 1
+                            [MEASURE_CODE] => 796
+                            [~MEASURE_CODE] => 796
+                            [MEASURE_NAME] => шт
+                            [~MEASURE_NAME] => шт
+                            [ORDER_ID] => 
+                            [~ORDER_ID] => 
+                            [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:33.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [~DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:33.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-07 15:31:06.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [~DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-07 15:31:06.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [PRODUCT_XML_ID] => d727bace-a1fa-11e7-ae2b-00155d010a02
+                            [~PRODUCT_XML_ID] => d727bace-a1fa-11e7-ae2b-00155d010a02
+                            [SUBSCRIBE] => N
+                            [~SUBSCRIBE] => N
+                            [RECOMMENDATION] => 
+                            [~RECOMMENDATION] => 
+                            [VAT_INCLUDED] => Y
+                            [~VAT_INCLUDED] => Y
+                            [SORT] => 300
+                            [~SORT] => 300
+                            [DATE_REFRESH] => 
+                            [~DATE_REFRESH] => 
+                            [DISCOUNT_NAME] => 
+                            [~DISCOUNT_NAME] => 
+                            [DISCOUNT_VALUE] => 
+                            [~DISCOUNT_VALUE] => 
+                            [DISCOUNT_COUPON] => 
+                            [~DISCOUNT_COUPON] => 
+                            [XML_ID] => bx_60ba2eb99b67f
+                            [~XML_ID] => bx_60ba2eb99b67f
+                            [MARKING_CODE_GROUP] => 
+                            [~MARKING_CODE_GROUP] => 
+                            [PROPS] => Array
+                                (
+                                )
+
+                            [PROPS_ALL] => Array
+                                (
+                                    [CATALOG.XML_ID] => Array
+                                        (
+                                            [CODE] => CATALOG.XML_ID
+                                            [ID] => 3627
+                                            [VALUE] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                                            [SORT] => 100
+                                            [NAME] => Catalog XML_ID
+                                        )
+
+                                    [PRODUCT.XML_ID] => Array
+                                        (
+                                            [CODE] => PRODUCT.XML_ID
+                                            [ID] => 3628
+                                            [VALUE] => d727bace-a1fa-11e7-ae2b-00155d010a02
+                                            [SORT] => 100
+                                            [NAME] => Product XML_ID
+                                        )
+
+                                )
+
+                            [WEIGHT_FORMATED] => 2740 г
+                            [PRICE_FORMATED] => 3&nbsp;051 руб.
+                            [FULL_PRICE] => 3390
+                            [FULL_PRICE_FORMATED] => 3&nbsp;390 руб.
+                            [DISCOUNT_PRICE_FORMATED] => 339 руб.
+                            [SUM_VALUE] => 6102
+                            [SUM] => 6&nbsp;102 <span class='rubl'>i</span>
+                            [SUM_FULL_PRICE] => 6780
+                            [SUM_FULL_PRICE_FORMATED] => 6&nbsp;780 руб.
+                            [SUM_DISCOUNT_PRICE] => 678
+                            [SUM_DISCOUNT_PRICE_FORMATED] => 678 руб.
+                            [VAT_VALUE] => 508.5
+                            [PRICE_VAT_VALUE] => 508.5
+                            [DISCOUNT_PRICE_PERCENT] => 10
+                            [DISCOUNT_PRICE_PERCENT_FORMATED] => 10%
+                            [HASH] => a6ca185745d822f15de427b6a60b6ee8
+                            [MEASURE_TEXT] => шт
+                            [MEASURE] => 796
+                            [MEASURE_RATIO] => 1
+                            [MEASURE_RATIO_VALUE] => 1
+                            [MEASURE_RATIO_ID] => 1779
+                            [AVAILABLE_QUANTITY] => 11
+                            [CHECK_MAX_QUANTITY] => Y
+                            [PREVIEW_PICTURE] => 32812
+                            [DETAIL_PICTURE] => 31549
+                            [PREVIEW_TEXT] => Ударная дрель DAD 950 DAEWOO
+                            [PREVIEW_TEXT_TYPE] => text
+                            [PREVIEW_PICTURE_SRC] => /upload/resize_cache/iblock/8d6/160_160_1/8d68820b5d68de79bf079cad39dd0c4e.jpg
+                            [PREVIEW_PICTURE_SRC_2X] => /upload/resize_cache/iblock/8d6/320_320_1/8d68820b5d68de79bf079cad39dd0c4e.jpg
+                            [PREVIEW_PICTURE_SRC_ORIGINAL] => /upload/iblock/8d6/8d68820b5d68de79bf079cad39dd0c4e.jpg
+                            [DETAIL_PICTURE_SRC] => /upload/resize_cache/iblock/0f0/160_160_1/0f04f2b836d4f84c29abf48e3af03a89.jpg
+                            [DETAIL_PICTURE_SRC_2X] => /upload/resize_cache/iblock/0f0/320_320_1/0f04f2b836d4f84c29abf48e3af03a89.jpg
+                            [DETAIL_PICTURE_SRC_ORIGINAL] => /upload/iblock/0f0/0f04f2b836d4f84c29abf48e3af03a89.jpg
+                            [PRICE_FORMATED_RUB] => 3&nbsp;051 <span class='rubl'>i</span>
+                            [SUM_FULL_PRICE_FORMATED_RUB] => 6&nbsp;780 <span class='rubl'>i</span>
+                            [BASE_PRICE_IS_MORE] => Y
+                        )
+
+                )
+
+        )
+
+    [FULL_DISCOUNT_LIST] => Array
+        (
+            [7] => Array
+                (
+                    [ID] => 7
+                    [PRIORITY] => 10
+                    [SORT] => 100
+                    [LAST_DISCOUNT] => N
+                    [LAST_LEVEL_DISCOUNT] => N
+                    [UNPACK] => function($arOrder){return (((isset($arOrder['DELIVERY_ID']) && (($arOrder['DELIVERY_ID'] != "1") && ($arOrder['DELIVERY_ID'] != "2") && ($arOrder['DELIVERY_ID'] != "3") && ($arOrder['DELIVERY_ID'] != "119"))))); };
+                    [APPLICATION] => function (&$arOrder){\Bitrix\Sale\Discount\Actions::applyToDelivery($arOrder, array (
+  'VALUE' => -100.0,
+  'UNIT' => 'P',
+));};
+                    [USE_COUPONS] => N
+                    [EXECUTE_MODULE] => sale
+                    [NAME] => Снимаем стоимость с базовых доставок c6v(НЕ ИЗМЕНЯТЬ)
+                    [ACTIVE_FROM] => 
+                    [ACTIVE_TO] => 
+                    [PREDICTIONS_APP] => 
+                    [PREDICTION_TEXT] => 
+                    [PRESET_ID] => 
+                    [CURRENCY] => RUB
+                    [LID] => s1
+                    [SHORT_DESCRIPTION] => N;
+                    [SHORT_DESCRIPTION_STRUCTURE] => 
+                    [CONDITIONS] => Array
+                        (
+                            [CLASS_ID] => CondGroup
+                            [DATA] => Array
+                                (
+                                    [All] => AND
+                                    [True] => True
+                                )
+
+                            [CHILDREN] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [CLASS_ID] => CondSaleDelivery
+                                            [DATA] => Array
+                                                (
+                                                    [logic] => Not
+                                                    [value] => Array
+                                                        (
+                                                            [0] => 1
+                                                            [1] => 2
+                                                            [2] => 3
+                                                            [3] => 119
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [ACTIONS] => Array
+                        (
+                            [CLASS_ID] => CondGroup
+                            [DATA] => Array
+                                (
+                                    [All] => AND
+                                )
+
+                            [CHILDREN] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [CLASS_ID] => ActSaleDelivery
+                                            [DATA] => Array
+                                                (
+                                                    [Type] => Discount
+                                                    [Value] => 100
+                                                    [Unit] => Perc
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [PREDICTIONS] => 
+                    [MODULE_ID] => sale
+                    [MODULES] => Array
+                        (
+                        )
+
+                )
+
+            [10] => Array
+                (
+                    [ID] => 10
+                    [PRIORITY] => 1
+                    [SORT] => 100
+                    [LAST_DISCOUNT] => Y
+                    [LAST_LEVEL_DISCOUNT] => N
+                    [UNPACK] => function($arOrder){return ((1 == 1)); };
+                    [APPLICATION] => function (&$arOrder){\Bitrix\Sale\Discount\Actions::applyToBasket($arOrder, array (
+  'VALUE' => -10.0,
+  'UNIT' => 'P',
+  'LIMIT_VALUE' => 0,
+), "");};
+                    [USE_COUPONS] => Y
+                    [EXECUTE_MODULE] => all
+                    [NAME] => YT10
+                    [ACTIVE_FROM] => 
+                    [ACTIVE_TO] => 
+                    [PREDICTIONS_APP] => 
+                    [PREDICTION_TEXT] => 
+                    [PRESET_ID] => 
+                    [CURRENCY] => RUB
+                    [LID] => s1
+                    [SHORT_DESCRIPTION] => a:4:{s:4:"TYPE";s:8:"Discount";s:5:"VALUE";d:10;s:11:"LIMIT_VALUE";i:0;s:10:"VALUE_TYPE";s:1:"P";}
+                    [SHORT_DESCRIPTION_STRUCTURE] => Array
+                        (
+                            [TYPE] => Discount
+                            [VALUE] => 10
+                            [LIMIT_VALUE] => 0
+                            [VALUE_TYPE] => P
+                        )
+
+                    [COUPON] => Array
+                        (
+                            [COUPON] => YT10
+                            [MODE] => 2
+                            [STATUS] => 2
+                            [CHECK_CODE] => 0
+                            [MODULE] => sale
+                            [MODULE_ID] => sale
+                            [ID] => 2
+                            [DISCOUNT_ID] => 10
+                            [DISCOUNT_NAME] => YT10
+                            [TYPE] => 4
+                            [ACTIVE] => Y
+                            [USER_INFO] => Array
+                                (
+                                )
+
+                            [SAVED] => N
+                            [DISCOUNT_ACTIVE] => Y
+                            [DISCOUNT_ACTIVE_FROM] => 
+                            [DISCOUNT_ACTIVE_TO] => 
+                            [SORT] => 0
+                            [BASKET] => Array
+                                (
+                                )
+
+                            [DELIVERY] => Array
+                                (
+                                )
+
+                        )
+
+                    [CONDITIONS] => Array
+                        (
+                            [CLASS_ID] => CondGroup
+                            [DATA] => Array
+                                (
+                                    [All] => AND
+                                    [True] => True
+                                )
+
+                            [CHILDREN] => Array
+                                (
+                                )
+
+                        )
+
+                    [ACTIONS] => Array
+                        (
+                            [CLASS_ID] => CondGroup
+                            [DATA] => Array
+                                (
+                                    [All] => AND
+                                )
+
+                            [CHILDREN] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [CLASS_ID] => ActSaleBsktGrp
+                                            [DATA] => Array
+                                                (
+                                                    [Type] => Discount
+                                                    [Value] => 10
+                                                    [Unit] => Perc
+                                                    [Max] => 0
+                                                    [All] => AND
+                                                    [True] => True
+                                                )
+
+                                            [CHILDREN] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [PREDICTIONS] => 
+                    [MODULE_ID] => sale
+                    [MODULES] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [APPLIED_DISCOUNT_LIST] => Array
+        (
+            [10] => Array
+                (
+                    [ID] => 10
+                    [PRIORITY] => 1
+                    [SORT] => 100
+                    [LAST_DISCOUNT] => Y
+                    [LAST_LEVEL_DISCOUNT] => N
+                    [UNPACK] => function($arOrder){return ((1 == 1)); };
+                    [APPLICATION] => function (&$arOrder){\Bitrix\Sale\Discount\Actions::applyToBasket($arOrder, array (
+  'VALUE' => -10.0,
+  'UNIT' => 'P',
+  'LIMIT_VALUE' => 0,
+), "");};
+                    [USE_COUPONS] => Y
+                    [EXECUTE_MODULE] => all
+                    [NAME] => YT10
+                    [ACTIVE_FROM] => 
+                    [ACTIVE_TO] => 
+                    [PREDICTIONS_APP] => 
+                    [PREDICTION_TEXT] => 
+                    [PRESET_ID] => 
+                    [CURRENCY] => RUB
+                    [LID] => s1
+                    [SHORT_DESCRIPTION] => a:4:{s:4:"TYPE";s:8:"Discount";s:5:"VALUE";d:10;s:11:"LIMIT_VALUE";i:0;s:10:"VALUE_TYPE";s:1:"P";}
+                    [SHORT_DESCRIPTION_STRUCTURE] => Array
+                        (
+                            [TYPE] => Discount
+                            [VALUE] => 10
+                            [LIMIT_VALUE] => 0
+                            [VALUE_TYPE] => P
+                        )
+
+                    [COUPON] => Array
+                        (
+                            [COUPON] => YT10
+                            [MODE] => 2
+                            [STATUS] => 2
+                            [CHECK_CODE] => 0
+                            [MODULE] => sale
+                            [MODULE_ID] => sale
+                            [ID] => 2
+                            [DISCOUNT_ID] => 10
+                            [DISCOUNT_NAME] => YT10
+                            [TYPE] => 4
+                            [ACTIVE] => Y
+                            [USER_INFO] => Array
+                                (
+                                )
+
+                            [SAVED] => N
+                            [DISCOUNT_ACTIVE] => Y
+                            [DISCOUNT_ACTIVE_FROM] => 
+                            [DISCOUNT_ACTIVE_TO] => 
+                            [SORT] => 0
+                            [BASKET] => Array
+                                (
+                                )
+
+                            [DELIVERY] => Array
+                                (
+                                )
+
+                        )
+
+                    [CONDITIONS] => Array
+                        (
+                            [CLASS_ID] => CondGroup
+                            [DATA] => Array
+                                (
+                                    [All] => AND
+                                    [True] => True
+                                )
+
+                            [CHILDREN] => Array
+                                (
+                                )
+
+                        )
+
+                    [ACTIONS] => Array
+                        (
+                            [CLASS_ID] => CondGroup
+                            [DATA] => Array
+                                (
+                                    [All] => AND
+                                )
+
+                            [CHILDREN] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [CLASS_ID] => ActSaleBsktGrp
+                                            [DATA] => Array
+                                                (
+                                                    [Type] => Discount
+                                                    [Value] => 10
+                                                    [Unit] => Perc
+                                                    [Max] => 0
+                                                    [All] => AND
+                                                    [True] => True
+                                                )
+
+                                            [CHILDREN] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [PREDICTIONS] => 
+                    [MODULE_ID] => sale
+                    [MODULES] => Array
+                        (
+                        )
+
+                    [RESULT] => Array
+                        (
+                            [BASKET] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [CURRENCY] => RUB
+    [allSum] => 13635
+    [allSum_FORMATED] => 13&nbsp;635 <span class='rubl'>i</span>
+    [allWeight] => 12240
+    [allWeight_FORMATED] => 12240 г
+    [PRICE_WITHOUT_DISCOUNT] => 15&nbsp;150 руб.
+    [DISCOUNT_PRICE_ALL] => 1515
+    [DISCOUNT_PRICE_ALL_FORMATED] => 1&nbsp;515 руб.
+    [DISCOUNT_PRICE_FORMATED] => 1&nbsp;515 руб.
+    [COUPON] => YT10
+    [COUPON_LIST] => Array
+        (
+            [0] => Array
+                (
+                    [COUPON] => YT10
+                    [MODE] => 2
+                    [STATUS] => 4
+                    [CHECK_CODE] => 0
+                    [MODULE] => sale
+                    [MODULE_ID] => sale
+                    [ID] => 2
+                    [DISCOUNT_ID] => 10
+                    [DISCOUNT_NAME] => YT10
+                    [TYPE] => 4
+                    [ACTIVE] => Y
+                    [USER_INFO] => Array
+                        (
+                        )
+
+                    [SAVED] => N
+                    [DISCOUNT_ACTIVE] => Y
+                    [DISCOUNT_ACTIVE_FROM] => 
+                    [DISCOUNT_ACTIVE_TO] => 
+                    [SORT] => 0
+                    [BASKET] => Array
+                        (
+                            [catalog:1843:1830] => 1
+                            [catalog:1867:1831] => 1
+                            [catalog:1844:1832] => 1
+                        )
+
+                    [DELIVERY] => Array
+                        (
+                        )
+
+                    [STATUS_TEXT] => применен
+                    [CHECK_CODE_TEXT] => Array
+                        (
+                            [0] => применен
+                        )
+
+                    [JS_STATUS] => APPLYED
+                    [JS_CHECK_CODE] => применен
+                )
+
+        )
+
+    [EMPTY_BASKET] => 
+    [WARNING_MESSAGE] => Array
+        (
+        )
+
+    [WARNING_MESSAGE_WITH_CODE] => Array
+        (
+        )
+
+    [ERROR_MESSAGE] => 
+    [BASKET_ITEMS_COUNT] => 3
+    [ORDERABLE_BASKET_ITEMS_COUNT] => 3
+    [NOT_AVAILABLE_BASKET_ITEMS_COUNT] => 0
+    [DELAYED_BASKET_ITEMS_COUNT] => 0
+    [BASKET_ITEM_MAX_COUNT_EXCEEDED] => 
+    [EVENT_ONCHANGE_ON_START] => N
+    [CURRENCIES] => Array
+        (
+            [0] => Array
+                (
+                    [CURRENCY] => BYN
+                    [FORMAT] => Array
+                        (
+                            [FORMAT_STRING] => # руб.
+                            [DEC_POINT] => .
+                            [THOUSANDS_SEP] => &nbsp;
+                            [DECIMALS] => 2
+                            [THOUSANDS_VARIANT] => B
+                            [HIDE_ZERO] => Y
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [CURRENCY] => EUR
+                    [FORMAT] => Array
+                        (
+                            [FORMAT_STRING] => # &euro;
+                            [DEC_POINT] => .
+                            [THOUSANDS_SEP] => &nbsp;
+                            [DECIMALS] => 2
+                            [THOUSANDS_VARIANT] => B
+                            [HIDE_ZERO] => Y
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [CURRENCY] => RUB
+                    [FORMAT] => Array
+                        (
+                            [FORMAT_STRING] => # руб.
+                            [DEC_POINT] => .
+                            [THOUSANDS_SEP] => &nbsp;
+                            [DECIMALS] => 2
+                            [THOUSANDS_VARIANT] => B
+                            [HIDE_ZERO] => Y
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [CURRENCY] => UAH
+                    [FORMAT] => Array
+                        (
+                            [FORMAT_STRING] => # грн.
+                            [DEC_POINT] => .
+                            [THOUSANDS_SEP] => &nbsp;
+                            [DECIMALS] => 2
+                            [THOUSANDS_VARIANT] => B
+                            [HIDE_ZERO] => Y
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [CURRENCY] => USD
+                    [FORMAT] => Array
+                        (
+                            [FORMAT_STRING] => $#
+                            [DEC_POINT] => .
+                            [THOUSANDS_SEP] => ,
+                            [DECIMALS] => 2
+                            [THOUSANDS_VARIANT] => C
+                            [HIDE_ZERO] => Y
+                        )
+
+                )
+
+        )
+
+    [ITEMS] => Array
+        (
+            [AnDelCanBuy] => Array
+                (
+                    [0] => Array
+                        (
+                            [ID] => 1830
+                            [~ID] => 1830
+                            [LID] => s1
+                            [~LID] => s1
+                            [MODULE] => catalog
+                            [~MODULE] => catalog
+                            [PRODUCT_ID] => 1843
+                            [~PRODUCT_ID] => 1843
+                            [QUANTITY] => 1
+                            [~QUANTITY] => 1.0000
+                            [WEIGHT] => 2400
+                            [~WEIGHT] => 2400.00
+                            [DELAY] => N
+                            [~DELAY] => N
+                            [CAN_BUY] => Y
+                            [~CAN_BUY] => Y
+                            [PRICE] => 2691
+                            [~PRICE] => 2691
+                            [CUSTOM_PRICE] => N
+                            [~CUSTOM_PRICE] => N
+                            [BASE_PRICE] => 2990
+                            [~BASE_PRICE] => 2990
+                            [PRODUCT_PRICE_ID] => 3333
+                            [~PRODUCT_PRICE_ID] => 3333
+                            [PRICE_TYPE_ID] => 2
+                            [~PRICE_TYPE_ID] => 2
+                            [CURRENCY] => RUB
+                            [~CURRENCY] => RUB
+                            [BARCODE_MULTI] => N
+                            [~BARCODE_MULTI] => N
+                            [RESERVED] => N
+                            [~RESERVED] => N
+                            [RESERVE_QUANTITY] => 
+                            [~RESERVE_QUANTITY] => 
+                            [NAME] => Дрель ударная DAEWOO DAD 850
+                            [~NAME] => Дрель ударная DAEWOO DAD 850
+                            [CATALOG_XML_ID] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                            [~CATALOG_XML_ID] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                            [VAT_RATE] => 0.2000
+                            [~VAT_RATE] => 0.2000
+                            [NOTES] => Розничная цена (Для сайта)
+                            [~NOTES] => Розничная цена (Для сайта)
+                            [DISCOUNT_PRICE] => 299
+                            [~DISCOUNT_PRICE] => 299
+                            [PRODUCT_PROVIDER_CLASS] => \Bitrix\Catalog\Product\CatalogProvider
+                            [~PRODUCT_PROVIDER_CLASS] => \Bitrix\Catalog\Product\CatalogProvider
+                            [CALLBACK_FUNC] => 
+                            [~CALLBACK_FUNC] => 
+                            [ORDER_CALLBACK_FUNC] => 
+                            [~ORDER_CALLBACK_FUNC] => 
+                            [PAY_CALLBACK_FUNC] => 
+                            [~PAY_CALLBACK_FUNC] => 
+                            [CANCEL_CALLBACK_FUNC] => 
+                            [~CANCEL_CALLBACK_FUNC] => 
+                            [DIMENSIONS] => a:3:{s:5:&quot;WIDTH&quot;;N;s:6:&quot;HEIGHT&quot;;N;s:6:&quot;LENGTH&quot;;N;}
+                            [~DIMENSIONS] => a:3:{s:5:"WIDTH";N;s:6:"HEIGHT";N;s:6:"LENGTH";N;}
+                            [TYPE] => 
+                            [~TYPE] => 
+                            [SET_PARENT_ID] => 
+                            [~SET_PARENT_ID] => 
+                            [DETAIL_PAGE_URL] => /catalog/item/drel_udarnaya_daewoo_dad_850/
+                            [~DETAIL_PAGE_URL] => /catalog/item/drel_udarnaya_daewoo_dad_850/
+                            [FUSER_ID] => 1
+                            [~FUSER_ID] => 1
+                            [MEASURE_CODE] => 796
+                            [~MEASURE_CODE] => 796
+                            [MEASURE_NAME] => шт
+                            [~MEASURE_NAME] => шт
+                            [ORDER_ID] => 
+                            [~ORDER_ID] => 
+                            [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:31.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [~DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:31.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:34.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [~DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:34.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [PRODUCT_XML_ID] => d727bacc-a1fa-11e7-ae2b-00155d010a02
+                            [~PRODUCT_XML_ID] => d727bacc-a1fa-11e7-ae2b-00155d010a02
+                            [SUBSCRIBE] => N
+                            [~SUBSCRIBE] => N
+                            [RECOMMENDATION] => 
+                            [~RECOMMENDATION] => 
+                            [VAT_INCLUDED] => Y
+                            [~VAT_INCLUDED] => Y
+                            [SORT] => 100
+                            [~SORT] => 100
+                            [DATE_REFRESH] => 
+                            [~DATE_REFRESH] => 
+                            [DISCOUNT_NAME] => 
+                            [~DISCOUNT_NAME] => 
+                            [DISCOUNT_VALUE] => 
+                            [~DISCOUNT_VALUE] => 
+                            [DISCOUNT_COUPON] => 
+                            [~DISCOUNT_COUPON] => 
+                            [XML_ID] => bx_60ba2eb7e1f9b
+                            [~XML_ID] => bx_60ba2eb7e1f9b
+                            [MARKING_CODE_GROUP] => 
+                            [~MARKING_CODE_GROUP] => 
+                            [PROPS] => Array
+                                (
+                                )
+
+                            [PROPS_ALL] => Array
+                                (
+                                    [CATALOG.XML_ID] => Array
+                                        (
+                                            [CODE] => CATALOG.XML_ID
+                                            [ID] => 3623
+                                            [VALUE] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                                            [SORT] => 100
+                                            [NAME] => Catalog XML_ID
+                                        )
+
+                                    [PRODUCT.XML_ID] => Array
+                                        (
+                                            [CODE] => PRODUCT.XML_ID
+                                            [ID] => 3624
+                                            [VALUE] => d727bacc-a1fa-11e7-ae2b-00155d010a02
+                                            [SORT] => 100
+                                            [NAME] => Product XML_ID
+                                        )
+
+                                )
+
+                            [WEIGHT_FORMATED] => 2400 г
+                            [PRICE_FORMATED] => 2&nbsp;691 руб.
+                            [FULL_PRICE] => 2990
+                            [FULL_PRICE_FORMATED] => 2&nbsp;990 руб.
+                            [DISCOUNT_PRICE_FORMATED] => 299 руб.
+                            [SUM_VALUE] => 2691
+                            [SUM] => 2&nbsp;691 руб.
+                            [SUM_FULL_PRICE] => 2990
+                            [SUM_FULL_PRICE_FORMATED] => 2&nbsp;990 руб.
+                            [SUM_DISCOUNT_PRICE] => 299
+                            [SUM_DISCOUNT_PRICE_FORMATED] => 299 руб.
+                            [VAT_VALUE] => 448.5
+                            [PRICE_VAT_VALUE] => 448.5
+                            [DISCOUNT_PRICE_PERCENT] => 10
+                            [DISCOUNT_PRICE_PERCENT_FORMATED] => 10%
+                            [HASH] => 62d400fc0fa4b1a4f783bb5aac4b74d2
+                            [MEASURE_TEXT] => шт
+                            [MEASURE] => 796
+                            [MEASURE_RATIO] => 1
+                            [MEASURE_RATIO_VALUE] => 1
+                            [MEASURE_RATIO_ID] => 1778
+                            [AVAILABLE_QUANTITY] => 18
+                            [CHECK_MAX_QUANTITY] => Y
+                            [PREVIEW_PICTURE] => 32810
+                            [DETAIL_PICTURE] => 31544
+                            [PREVIEW_TEXT] => Ударная дрель DAD 850 DAEWOO
+                            [PREVIEW_TEXT_TYPE] => text
+                            [PREVIEW_PICTURE_SRC] => /upload/resize_cache/iblock/829/160_160_1/829b33b9fad075ec3014607bb2ba4fe6.jpg
+                            [PREVIEW_PICTURE_SRC_2X] => /upload/resize_cache/iblock/829/320_320_1/829b33b9fad075ec3014607bb2ba4fe6.jpg
+                            [PREVIEW_PICTURE_SRC_ORIGINAL] => /upload/iblock/829/829b33b9fad075ec3014607bb2ba4fe6.jpg
+                            [DETAIL_PICTURE_SRC] => /upload/resize_cache/iblock/42a/160_160_1/42a28aa06e3d57c59e96fd1c948cbec4.jpg
+                            [DETAIL_PICTURE_SRC_2X] => /upload/resize_cache/iblock/42a/320_320_1/42a28aa06e3d57c59e96fd1c948cbec4.jpg
+                            [DETAIL_PICTURE_SRC_ORIGINAL] => /upload/iblock/42a/42a28aa06e3d57c59e96fd1c948cbec4.jpg
+                        )
+
+                    [1] => Array
+                        (
+                            [ID] => 1831
+                            [~ID] => 1831
+                            [LID] => s1
+                            [~LID] => s1
+                            [MODULE] => catalog
+                            [~MODULE] => catalog
+                            [PRODUCT_ID] => 1867
+                            [~PRODUCT_ID] => 1867
+                            [QUANTITY] => 2
+                            [~QUANTITY] => 2.0000
+                            [WEIGHT] => 2180
+                            [~WEIGHT] => 2180.00
+                            [DELAY] => N
+                            [~DELAY] => N
+                            [CAN_BUY] => Y
+                            [~CAN_BUY] => Y
+                            [PRICE] => 2421
+                            [~PRICE] => 2421
+                            [CUSTOM_PRICE] => N
+                            [~CUSTOM_PRICE] => N
+                            [BASE_PRICE] => 2690
+                            [~BASE_PRICE] => 2690
+                            [PRODUCT_PRICE_ID] => 3380
+                            [~PRODUCT_PRICE_ID] => 3380
+                            [PRICE_TYPE_ID] => 2
+                            [~PRICE_TYPE_ID] => 2
+                            [CURRENCY] => RUB
+                            [~CURRENCY] => RUB
+                            [BARCODE_MULTI] => N
+                            [~BARCODE_MULTI] => N
+                            [RESERVED] => N
+                            [~RESERVED] => N
+                            [RESERVE_QUANTITY] => 
+                            [~RESERVE_QUANTITY] => 
+                            [NAME] => Дрель ударная DAEWOO DAD 650
+                            [~NAME] => Дрель ударная DAEWOO DAD 650
+                            [CATALOG_XML_ID] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                            [~CATALOG_XML_ID] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                            [VAT_RATE] => 0.2000
+                            [~VAT_RATE] => 0.2000
+                            [NOTES] => Розничная цена (Для сайта)
+                            [~NOTES] => Розничная цена (Для сайта)
+                            [DISCOUNT_PRICE] => 269
+                            [~DISCOUNT_PRICE] => 269
+                            [PRODUCT_PROVIDER_CLASS] => \Bitrix\Catalog\Product\CatalogProvider
+                            [~PRODUCT_PROVIDER_CLASS] => \Bitrix\Catalog\Product\CatalogProvider
+                            [CALLBACK_FUNC] => 
+                            [~CALLBACK_FUNC] => 
+                            [ORDER_CALLBACK_FUNC] => 
+                            [~ORDER_CALLBACK_FUNC] => 
+                            [PAY_CALLBACK_FUNC] => 
+                            [~PAY_CALLBACK_FUNC] => 
+                            [CANCEL_CALLBACK_FUNC] => 
+                            [~CANCEL_CALLBACK_FUNC] => 
+                            [DIMENSIONS] => a:3:{s:5:&quot;WIDTH&quot;;N;s:6:&quot;HEIGHT&quot;;N;s:6:&quot;LENGTH&quot;;N;}
+                            [~DIMENSIONS] => a:3:{s:5:"WIDTH";N;s:6:"HEIGHT";N;s:6:"LENGTH";N;}
+                            [TYPE] => 
+                            [~TYPE] => 
+                            [SET_PARENT_ID] => 
+                            [~SET_PARENT_ID] => 
+                            [DETAIL_PAGE_URL] => /catalog/item/drel_udarnaya_daewoo_dad_650/
+                            [~DETAIL_PAGE_URL] => /catalog/item/drel_udarnaya_daewoo_dad_650/
+                            [FUSER_ID] => 1
+                            [~FUSER_ID] => 1
+                            [MEASURE_CODE] => 796
+                            [~MEASURE_CODE] => 796
+                            [MEASURE_NAME] => шт
+                            [~MEASURE_NAME] => шт
+                            [ORDER_ID] => 
+                            [~ORDER_ID] => 
+                            [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:32.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [~DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:32.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-07 17:03:27.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [~DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-07 17:03:27.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [PRODUCT_XML_ID] => 997dd856-b211-11e6-b99c-00155d010a02
+                            [~PRODUCT_XML_ID] => 997dd856-b211-11e6-b99c-00155d010a02
+                            [SUBSCRIBE] => N
+                            [~SUBSCRIBE] => N
+                            [RECOMMENDATION] => 
+                            [~RECOMMENDATION] => 
+                            [VAT_INCLUDED] => Y
+                            [~VAT_INCLUDED] => Y
+                            [SORT] => 200
+                            [~SORT] => 200
+                            [DATE_REFRESH] => 
+                            [~DATE_REFRESH] => 
+                            [DISCOUNT_NAME] => 
+                            [~DISCOUNT_NAME] => 
+                            [DISCOUNT_VALUE] => 
+                            [~DISCOUNT_VALUE] => 
+                            [DISCOUNT_COUPON] => 
+                            [~DISCOUNT_COUPON] => 
+                            [XML_ID] => bx_60ba2eb8a1601
+                            [~XML_ID] => bx_60ba2eb8a1601
+                            [MARKING_CODE_GROUP] => 
+                            [~MARKING_CODE_GROUP] => 
+                            [PROPS] => Array
+                                (
+                                )
+
+                            [PROPS_ALL] => Array
+                                (
+                                    [CATALOG.XML_ID] => Array
+                                        (
+                                            [CODE] => CATALOG.XML_ID
+                                            [ID] => 3625
+                                            [VALUE] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                                            [SORT] => 100
+                                            [NAME] => Catalog XML_ID
+                                        )
+
+                                    [PRODUCT.XML_ID] => Array
+                                        (
+                                            [CODE] => PRODUCT.XML_ID
+                                            [ID] => 3626
+                                            [VALUE] => 997dd856-b211-11e6-b99c-00155d010a02
+                                            [SORT] => 100
+                                            [NAME] => Product XML_ID
+                                        )
+
+                                )
+
+                            [WEIGHT_FORMATED] => 2180 г
+                            [PRICE_FORMATED] => 2&nbsp;421 руб.
+                            [FULL_PRICE] => 2690
+                            [FULL_PRICE_FORMATED] => 2&nbsp;690 руб.
+                            [DISCOUNT_PRICE_FORMATED] => 269 руб.
+                            [SUM_VALUE] => 4842
+                            [SUM] => 4&nbsp;842 руб.
+                            [SUM_FULL_PRICE] => 5380
+                            [SUM_FULL_PRICE_FORMATED] => 5&nbsp;380 руб.
+                            [SUM_DISCOUNT_PRICE] => 538
+                            [SUM_DISCOUNT_PRICE_FORMATED] => 538 руб.
+                            [VAT_VALUE] => 403.5
+                            [PRICE_VAT_VALUE] => 403.5
+                            [DISCOUNT_PRICE_PERCENT] => 10
+                            [DISCOUNT_PRICE_PERCENT_FORMATED] => 10%
+                            [HASH] => cc882cda3ec42a9ad6e0548a54bf3f68
+                            [MEASURE_TEXT] => шт
+                            [MEASURE] => 796
+                            [MEASURE_RATIO] => 1
+                            [MEASURE_RATIO_VALUE] => 1
+                            [MEASURE_RATIO_ID] => 1802
+                            [AVAILABLE_QUANTITY] => 18
+                            [CHECK_MAX_QUANTITY] => Y
+                            [PREVIEW_PICTURE] => 32814
+                            [DETAIL_PICTURE] => 31826
+                            [PREVIEW_TEXT] => Ударная дрель DAD 650 DAEWOO
+                            [PREVIEW_TEXT_TYPE] => text
+                            [PREVIEW_PICTURE_SRC] => /upload/resize_cache/iblock/b44/160_160_1/b443aa98f6e7ecc269ff485b2efee79a.jpg
+                            [PREVIEW_PICTURE_SRC_2X] => /upload/resize_cache/iblock/b44/320_320_1/b443aa98f6e7ecc269ff485b2efee79a.jpg
+                            [PREVIEW_PICTURE_SRC_ORIGINAL] => /upload/iblock/b44/b443aa98f6e7ecc269ff485b2efee79a.jpg
+                            [DETAIL_PICTURE_SRC] => /upload/resize_cache/iblock/1fe/160_160_1/1fe63dc5de49b3869915f5363857ebdc.jpg
+                            [DETAIL_PICTURE_SRC_2X] => /upload/resize_cache/iblock/1fe/320_320_1/1fe63dc5de49b3869915f5363857ebdc.jpg
+                            [DETAIL_PICTURE_SRC_ORIGINAL] => /upload/iblock/1fe/1fe63dc5de49b3869915f5363857ebdc.jpg
+                        )
+
+                    [2] => Array
+                        (
+                            [ID] => 1832
+                            [~ID] => 1832
+                            [LID] => s1
+                            [~LID] => s1
+                            [MODULE] => catalog
+                            [~MODULE] => catalog
+                            [PRODUCT_ID] => 1844
+                            [~PRODUCT_ID] => 1844
+                            [QUANTITY] => 2
+                            [~QUANTITY] => 2.0000
+                            [WEIGHT] => 2740
+                            [~WEIGHT] => 2740.00
+                            [DELAY] => N
+                            [~DELAY] => N
+                            [CAN_BUY] => Y
+                            [~CAN_BUY] => Y
+                            [PRICE] => 3051
+                            [~PRICE] => 3051
+                            [CUSTOM_PRICE] => N
+                            [~CUSTOM_PRICE] => N
+                            [BASE_PRICE] => 3390
+                            [~BASE_PRICE] => 3390
+                            [PRODUCT_PRICE_ID] => 3336
+                            [~PRODUCT_PRICE_ID] => 3336
+                            [PRICE_TYPE_ID] => 2
+                            [~PRICE_TYPE_ID] => 2
+                            [CURRENCY] => RUB
+                            [~CURRENCY] => RUB
+                            [BARCODE_MULTI] => N
+                            [~BARCODE_MULTI] => N
+                            [RESERVED] => N
+                            [~RESERVED] => N
+                            [RESERVE_QUANTITY] => 
+                            [~RESERVE_QUANTITY] => 
+                            [NAME] => Дрель ударная DAEWOO DAD 950
+                            [~NAME] => Дрель ударная DAEWOO DAD 950
+                            [CATALOG_XML_ID] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                            [~CATALOG_XML_ID] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                            [VAT_RATE] => 0.2000
+                            [~VAT_RATE] => 0.2000
+                            [NOTES] => Розничная цена (Для сайта)
+                            [~NOTES] => Розничная цена (Для сайта)
+                            [DISCOUNT_PRICE] => 339
+                            [~DISCOUNT_PRICE] => 339
+                            [PRODUCT_PROVIDER_CLASS] => \Bitrix\Catalog\Product\CatalogProvider
+                            [~PRODUCT_PROVIDER_CLASS] => \Bitrix\Catalog\Product\CatalogProvider
+                            [CALLBACK_FUNC] => 
+                            [~CALLBACK_FUNC] => 
+                            [ORDER_CALLBACK_FUNC] => 
+                            [~ORDER_CALLBACK_FUNC] => 
+                            [PAY_CALLBACK_FUNC] => 
+                            [~PAY_CALLBACK_FUNC] => 
+                            [CANCEL_CALLBACK_FUNC] => 
+                            [~CANCEL_CALLBACK_FUNC] => 
+                            [DIMENSIONS] => a:3:{s:5:&quot;WIDTH&quot;;N;s:6:&quot;HEIGHT&quot;;N;s:6:&quot;LENGTH&quot;;N;}
+                            [~DIMENSIONS] => a:3:{s:5:"WIDTH";N;s:6:"HEIGHT";N;s:6:"LENGTH";N;}
+                            [TYPE] => 
+                            [~TYPE] => 
+                            [SET_PARENT_ID] => 
+                            [~SET_PARENT_ID] => 
+                            [DETAIL_PAGE_URL] => /catalog/item/drel_udarnaya_daewoo_dad_950/
+                            [~DETAIL_PAGE_URL] => /catalog/item/drel_udarnaya_daewoo_dad_950/
+                            [FUSER_ID] => 1
+                            [~FUSER_ID] => 1
+                            [MEASURE_CODE] => 796
+                            [~MEASURE_CODE] => 796
+                            [MEASURE_NAME] => шт
+                            [~MEASURE_NAME] => шт
+                            [ORDER_ID] => 
+                            [~ORDER_ID] => 
+                            [DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:33.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [~DATE_INSERT] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-04 16:46:33.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-07 15:31:06.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [~DATE_UPDATE] => Bitrix\Main\Type\DateTime Object
+                                (
+                                    [value:protected] => DateTime Object
+                                        (
+                                            [date] => 2021-06-07 15:31:06.000000
+                                            [timezone_type] => 3
+                                            [timezone] => Europe/Moscow
+                                        )
+
+                                )
+
+                            [PRODUCT_XML_ID] => d727bace-a1fa-11e7-ae2b-00155d010a02
+                            [~PRODUCT_XML_ID] => d727bace-a1fa-11e7-ae2b-00155d010a02
+                            [SUBSCRIBE] => N
+                            [~SUBSCRIBE] => N
+                            [RECOMMENDATION] => 
+                            [~RECOMMENDATION] => 
+                            [VAT_INCLUDED] => Y
+                            [~VAT_INCLUDED] => Y
+                            [SORT] => 300
+                            [~SORT] => 300
+                            [DATE_REFRESH] => 
+                            [~DATE_REFRESH] => 
+                            [DISCOUNT_NAME] => 
+                            [~DISCOUNT_NAME] => 
+                            [DISCOUNT_VALUE] => 
+                            [~DISCOUNT_VALUE] => 
+                            [DISCOUNT_COUPON] => 
+                            [~DISCOUNT_COUPON] => 
+                            [XML_ID] => bx_60ba2eb99b67f
+                            [~XML_ID] => bx_60ba2eb99b67f
+                            [MARKING_CODE_GROUP] => 
+                            [~MARKING_CODE_GROUP] => 
+                            [PROPS] => Array
+                                (
+                                )
+
+                            [PROPS_ALL] => Array
+                                (
+                                    [CATALOG.XML_ID] => Array
+                                        (
+                                            [CODE] => CATALOG.XML_ID
+                                            [ID] => 3627
+                                            [VALUE] => 844da84e-2a82-4feb-b8f9-db02c043666d
+                                            [SORT] => 100
+                                            [NAME] => Catalog XML_ID
+                                        )
+
+                                    [PRODUCT.XML_ID] => Array
+                                        (
+                                            [CODE] => PRODUCT.XML_ID
+                                            [ID] => 3628
+                                            [VALUE] => d727bace-a1fa-11e7-ae2b-00155d010a02
+                                            [SORT] => 100
+                                            [NAME] => Product XML_ID
+                                        )
+
+                                )
+
+                            [WEIGHT_FORMATED] => 2740 г
+                            [PRICE_FORMATED] => 3&nbsp;051 руб.
+                            [FULL_PRICE] => 3390
+                            [FULL_PRICE_FORMATED] => 3&nbsp;390 руб.
+                            [DISCOUNT_PRICE_FORMATED] => 339 руб.
+                            [SUM_VALUE] => 6102
+                            [SUM] => 6&nbsp;102 руб.
+                            [SUM_FULL_PRICE] => 6780
+                            [SUM_FULL_PRICE_FORMATED] => 6&nbsp;780 руб.
+                            [SUM_DISCOUNT_PRICE] => 678
+                            [SUM_DISCOUNT_PRICE_FORMATED] => 678 руб.
+                            [VAT_VALUE] => 508.5
+                            [PRICE_VAT_VALUE] => 508.5
+                            [DISCOUNT_PRICE_PERCENT] => 10
+                            [DISCOUNT_PRICE_PERCENT_FORMATED] => 10%
+                            [HASH] => a6ca185745d822f15de427b6a60b6ee8
+                            [MEASURE_TEXT] => шт
+                            [MEASURE] => 796
+                            [MEASURE_RATIO] => 1
+                            [MEASURE_RATIO_VALUE] => 1
+                            [MEASURE_RATIO_ID] => 1779
+                            [AVAILABLE_QUANTITY] => 11
+                            [CHECK_MAX_QUANTITY] => Y
+                            [PREVIEW_PICTURE] => 32812
+                            [DETAIL_PICTURE] => 31549
+                            [PREVIEW_TEXT] => Ударная дрель DAD 950 DAEWOO
+                            [PREVIEW_TEXT_TYPE] => text
+                            [PREVIEW_PICTURE_SRC] => /upload/resize_cache/iblock/8d6/160_160_1/8d68820b5d68de79bf079cad39dd0c4e.jpg
+                            [PREVIEW_PICTURE_SRC_2X] => /upload/resize_cache/iblock/8d6/320_320_1/8d68820b5d68de79bf079cad39dd0c4e.jpg
+                            [PREVIEW_PICTURE_SRC_ORIGINAL] => /upload/iblock/8d6/8d68820b5d68de79bf079cad39dd0c4e.jpg
+                            [DETAIL_PICTURE_SRC] => /upload/resize_cache/iblock/0f0/160_160_1/0f04f2b836d4f84c29abf48e3af03a89.jpg
+                            [DETAIL_PICTURE_SRC_2X] => /upload/resize_cache/iblock/0f0/320_320_1/0f04f2b836d4f84c29abf48e3af03a89.jpg
+                            [DETAIL_PICTURE_SRC_ORIGINAL] => /upload/iblock/0f0/0f04f2b836d4f84c29abf48e3af03a89.jpg
+                        )
+
+                )
+
+            [DelDelCanBuy] => Array
+                (
+                )
+
+            [nAnCanBuy] => Array
+                (
+                )
+
+            [ProdSubscribe] => Array
+                (
+                )
+
+        )
+
+    [ShowReady] => Y
+    [ShowDelay] => N
+    [ShowSubscribe] => N
+    [ShowNotAvail] => N
+)
+
+

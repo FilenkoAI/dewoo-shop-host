@@ -1,0 +1,5 @@
+$(function () {
+    markAddedFavs();
+    markAddedCompares();
+})
+
